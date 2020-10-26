@@ -1,0 +1,55 @@
+{
+  "pathwayTitle": "An Intro to Containers for Go Programmers",
+  "title": "Kubernetes basics",
+  "description": "In this scenario you'll see how to run your containerized Go app under Kubernetes",
+  "difficulty": "beginner",
+  "time": "20-30 minutes",
+  "details": {
+    "steps": [{
+      "title": "Write a simple Go app",
+      "text": "step1.md"
+    },
+    {
+      "title": "Run your container in a Kubernetes pod",
+      "text": "step2.md"
+    },
+    {
+      "title": "Kubernetes logs",
+      "text": "step3.md"
+    },
+    {
+      "title": "Kubernetes deployments",
+      "text": "step4.md"
+    },
+    {
+      "title": "Kubernetes services",
+      "text": "step5.md"
+    },
+    {
+      "title": "Scaling the number of replicas",
+      "text": "step6.md"
+    }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uisettings": "go",
+    "uimessage1": "\u001b[36mYour Interactive Bash Terminal.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "kubernetes"
+  },
+  "files": [
+    "hello.go",
+    "Dockerfile",
+    "pod.yaml",
+    "deployment.yaml",
+    "service.yaml"
+  ]
+}
